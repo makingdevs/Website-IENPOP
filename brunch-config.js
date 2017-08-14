@@ -12,3 +12,12 @@ exports.files = {
 exports.plugins = {
   babel: {presets: ['latest']}
 };
+
+exports.npm = {
+  enabled: true,
+  styles:{
+    bootstrap: ['dist/css/bootstrap.css'],
+    animate: ['animate.min.css']
+  },
+  globals: {jQuery: "jquery", $: "jquery"}
+};
