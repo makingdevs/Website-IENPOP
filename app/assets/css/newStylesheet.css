@@ -19,3 +19,6 @@
     font-size: 28px !important;
     color: #fff !important;
 }
+.navbar-nav > li > a {
+    font-size: 20px;
+}
